@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: hsl(221, 100%, 96%);
+}
+
+.resultados {
+  display: flex;
+}
+
+.contenedor-resultados {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: hsl(252, 100%, 67%);
+  color: hsl(0, 0%, 100%);
+  padding: 50px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  max-width: 200px;
+  width: 100%;
+  border-radius: 5%;
+  width: 250px;   /* Ajusta este valor según lo grande que lo quieras */
+  max-width: 100%;
+}
+
+.titulo-resultado {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.score {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 120px;         /* Ajusta el tamaño según prefieras */
+  height: 120px;        /* Igual que el width para que sea un círculo */
+  padding: 0;           /* Quita el padding para evitar deformaciones */
+  border-radius: 50%;   /* Hace el div perfectamente circular */
+  background-color: hsla(256, 72%, 46%, 1);
+  font-size: 48px;
+}
+
+.score span {
+  font-size: 11px;
+}
+
+.descripcion-resultados {
+  padding-top: 30px;
+}
+
+.contenedor-resumenes {
+  background-color: hsl(0, 0%, 100%);
+  padding: 50px;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
