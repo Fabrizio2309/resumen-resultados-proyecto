@@ -86,7 +86,6 @@ body {
 .contenedor-resumenes h2 {
   display: flex;
   flex-direction: flex-start;
-  
 }
 
 ul {
@@ -115,7 +114,13 @@ ul {
   background-color: hsl(234, 85%, 45%);
 }
 
-li {
+ul {
   display: flex;
+  gap: 10px;
+}
+
+ul li {
+  
   padding: 10px;
+  min-width: 200px;
 }
